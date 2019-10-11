@@ -19,12 +19,27 @@ To create an Automation Card, create a Card in a Project like this:
 
 ## Setup
 
+1. Visit https://smee.io/new and obtian a new Webhook Proxy URL.
+
+2. Edit ``.env`` and set ``WEBHOOK_PROXY_URL=`` the Webhook Proxy URL that you just obtained.
+
+3. Install dependencies:
+
 ```sh
-# Install dependencies
 npm install
-# Run the bot
+```
+
+4. Now start the application:
+
+```sh
 npm start
 ```
+
+5. Visit  http://localhost:3000/ and click on the "Register GitHub app" button
+
+6. Provide a name for the GitHub app
+
+7. Select where to install the GitHub app
 
 ## Contributing
 
